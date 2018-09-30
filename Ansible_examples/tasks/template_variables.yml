@@ -1,3 +1,5 @@
+##
+##Looping in templates with variable lists
 ---
 - hosts: all
   vars:

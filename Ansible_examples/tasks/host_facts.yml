@@ -1,3 +1,5 @@
+##Host facts for conditional execution
+##ansible-playbook <<playbook_name>> -e file_state=touch
 ---
 - hosts: web
   tasks:

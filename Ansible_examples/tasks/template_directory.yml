@@ -1,3 +1,6 @@
+##
+#ansible-playbook template_directory.yml --tags create
+##Looping in templates with dictionaries
 ---
 - hosts: all
   vars:

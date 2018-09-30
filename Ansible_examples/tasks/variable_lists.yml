@@ -1,3 +1,7 @@
+##looping tasks via variable lists
+##Package management
+##ansible-playbook -s  variable_lists.yml -e file_state=touch   -e pkg_state=latest
+
 ---
 - hosts: all
   vars:
