@@ -1,3 +1,4 @@
+##ansible-playbook -i ../../packet_net.py dynamic_inventory.yml --tags create-file
 ---
 - hosts: tag_all
   tasks:

@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: db2
   tasks:
   - name: deploy a simple template file
     template:

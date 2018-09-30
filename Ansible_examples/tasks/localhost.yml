@@ -6,7 +6,6 @@
       dest: /tmp/ssh-created
       state: touch
 
-
 - hosts: localhost
   connection: local
 

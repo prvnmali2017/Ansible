@@ -11,3 +11,9 @@
 [db2]
 10.100.1.143
 10.100.1.142
+[backup]
+db2 backup_file=/tmp/backup_file
+[all:vars]
+all_file=/tmp/all_file
+[web:vars]
+web_file=/tmp/web_file
